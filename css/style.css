@@ -212,30 +212,32 @@ h3.heading {
 .about-content {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 20px 0;
 }
 
 .about-content img {
   width: 300px;
   border-radius: 4px;
+  padding-right: 3rem;
 }
 .about-content p {
   width: 450px;
+  padding-left: 3rem;
 }
 
 /*============= PORTFOLIO SECTION =============*/
 
 .portfolio-content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 40px;
   align-items: center;
   justify-content: center;
 }
 
 .portfolio-content img {
-  width: 350px;
+  width: 600px;
   -webkit-box-shadow: 0px 0px 19px 0px rgba(199, 199, 199, 1);
   -moz-box-shadow: 0px 0px 19px 0px rgba(199, 199, 199, 1);
   box-shadow: 0px 0px 19px 0px rgba(199, 199, 199, 1);
@@ -343,7 +345,7 @@ a.top-scroll:hover {
   }
 
   .portfolio-content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .footer {
@@ -359,9 +361,11 @@ a.top-scroll:hover {
 
   .about-content img {
     margin-bottom: 20px;
+    padding: 0rem;
   }
   .about-content p {
     width: 420px;
+    padding: 0rem;
   }
 
   .caption h1 {
@@ -394,7 +398,7 @@ a.top-scroll:hover {
 
   .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
     align-items: center;
     justify-content: center;
@@ -427,18 +431,24 @@ a.top-scroll:hover {
   .about-content img {
     width: 300px;
     border-radius: 4px;
+    padding-right: 0rem;
   }
   .about-content p {
     width: 315px;
     margin-top: 30px;
+    padding-left: 0rem;
   }
 
   .portfolio-content {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
   }
 
   .portfolio-content img {
-    width: 300px;
+    width: 320px;
   }
 
   .footer {
