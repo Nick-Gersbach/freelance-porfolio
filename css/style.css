@@ -218,8 +218,7 @@ h3.heading {
 
 .about-content img {
   width: 300px;
-  border-radius: 4px;
-  padding-right: 3rem;
+  border-radius: 50%;
 }
 .about-content p {
   width: 450px;
@@ -238,9 +237,6 @@ h3.heading {
 
 .portfolio-content img {
   width: 600px;
-  -webkit-box-shadow: 0px 0px 19px 0px rgba(199, 199, 199, 1);
-  -moz-box-shadow: 0px 0px 19px 0px rgba(199, 199, 199, 1);
-  box-shadow: 0px 0px 19px 0px rgba(199, 199, 199, 1);
 }
 
 .project-title {
@@ -430,7 +426,7 @@ a.top-scroll:hover {
 
   .about-content img {
     width: 300px;
-    border-radius: 4px;
+    border-radius: 50%;
     padding-right: 0rem;
   }
   .about-content p {
